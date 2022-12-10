@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	
+	<AddIn Type="Application">
+		<Name>Bilfinger Structure</Name>
+		<Assembly>BilfingerStructure/BilfingerStructure.Core.dll</Assembly>
+		<AddInId>605FD18F-019E-49C1-88AD-24D155A7143B</AddInId>
+		<FullClassName>BilfingerStructure.Core.MainApplication</FullClassName>
+		<Text>Bilfinger Structure</Text>
+		<Description>Bilfinger Structure Description</Description>
+		<VendorId>Libovych Maksym</VendorId>
+		<VendorDescription>Libovych Maksym Description</VendorDescription>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>RebarOverridingInViewCommand</Name>
+		<Assembly>BilfingerStructure/BilfingerStructure.Core.dll</Assembly>
+		<AddInId>45B11A50-43EE-42B4-A280-C4F97E171AD5</AddInId>
+		<FullClassName>BilfingerStructure.Core.ExternalCommands.RebarOverridingInViewCommand</FullClassName>
+		<Text>RebarOverridingInViewCommand</Text>
+		<Description>RebarOverridingInViewCommand Description</Description>
+		<VendorId>Libovych Maksym</VendorId>
+		<VendorDescription>Libovych Maksym Description</VendorDescription>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+	</AddIn>
+	
+</RevitAddIns>
